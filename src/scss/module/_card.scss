@@ -5,6 +5,11 @@
 	box-shadow: shadow(30);
 	border-radius: $radius;
 
+	@media screen and (max-width: 321px) {
+		width: 100vw;
+		padding: 2rem 1rem;
+	}
+
 	display: flex;
 	@include centered-column;
 

@@ -11,6 +11,13 @@
 		align-items: center;
 		margin: 0.5rem 0;
 
+		@media screen and (max-width: 321px) {
+			grid-template-columns: 1fr !important;
+			grid-template-rows: 1fr $constant-height !important;
+			grid-gap: 0.7rem !important;
+			margin-bottom: 2.7rem !important;
+		}
+
 		&.row {
 			grid-template-columns: 1fr 236px;
 			grid-template-rows: $constant-height;
