@@ -33,7 +33,6 @@
 		left: 0;
 		transform: translateY(-50%);
 		@include body-regular;
-		// pointer-events: none;
 		@include border;
 		border-radius: $radius / 2;
 		@include centered-row;
@@ -69,7 +68,6 @@
 		box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
 		transition: trns(all);
 		z-index: -1;
-		pointer-events: none;
 
 		&_item {
 			width: 100%;
