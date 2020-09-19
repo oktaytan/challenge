@@ -1,0 +1,61 @@
+.btn {
+	width: 100%;
+	height: $constant-height;
+	border-radius: $radius / 2;
+	@include border;
+	border-color: transparent;
+	@include body-regular;
+	text-align: center;
+	padding: 15.5 auto 14.5 auto;
+	background: none;
+	outline: none;
+	cursor: pointer;
+	transition: trns(all);
+
+	&:active {
+		outline: none;
+	}
+
+	&:hover {
+		color: $primary;
+	}
+}
+
+.icon_btn {
+	background: none;
+	border: none;
+	outline: none;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 1.8rem;
+	background-color: $grey-10;
+	@include centered-row;
+	cursor: pointer;
+	transition: trns(all);
+	position: relative;
+
+	&:hover {
+		background-color: $primary;
+		box-shadow: 0 0 1.5rem rgba($primary, 0.8);
+
+		path {
+			fill: $white;
+		}
+	}
+
+	svg {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		@include centered-row;
+
+		path {
+			fill: $grey-90;
+		}
+	}
+
+	&:active {
+		outline: none;
+	}
+}

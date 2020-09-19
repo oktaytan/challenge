@@ -1,0 +1,16 @@
+.call_details {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	.call_title {
+		margin-bottom: 1rem;
+		@include centered-column;
+		text-align: center;
+
+		&_name {
+			@include h3-bold;
+			text-align: center;
+		}
+	}
+}

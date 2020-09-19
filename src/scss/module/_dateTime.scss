@@ -1,0 +1,28 @@
+.date_and_time {
+	width: 100%;
+	@include centered-row;
+	justify-content: space-between;
+	padding: 1rem;
+	@include border;
+	border-radius: $radius / 2;
+
+	.date,
+	.time {
+		@include centered-row;
+	}
+
+	span {
+		@include small-regular;
+		color: $grey-90;
+	}
+
+	.icon {
+		margin-right: 10.25px;
+	}
+}
+
+.timezone {
+	display: inline-block;
+	@include small-regular;
+	margin-top: 0.5rem;
+}

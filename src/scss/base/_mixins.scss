@@ -1,0 +1,55 @@
+@mixin centered-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin centered-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin border {
+	border: 1px solid $grey-40;
+}
+
+// Text Mixins
+@mixin body-regular {
+	font-family: '-apple-system', 'BlinkMacSystemFont', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: $grey-90;
+}
+
+@mixin body-bold {
+	font-family: '-apple-system', 'BlinkMacSystemFont', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	color: $grey-90;
+}
+
+
+@mixin small-regular {
+	font-family: '-apple-system', 'BlinkMacSystemFont', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	color: $grey-80;
+}
+
+
+@mixin h3-bold {
+	font-family: '-apple-system', 'BlinkMacSystemFont', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	color: $grey-90;
+}

@@ -1,0 +1,12 @@
+.card {
+	width: 384px;
+	min-height: 400px;
+	background-color: $white;
+	box-shadow: shadow(30);
+	border-radius: $radius;
+
+	display: flex;
+	@include centered-column;
+
+	padding: 2rem 1.5rem;
+}

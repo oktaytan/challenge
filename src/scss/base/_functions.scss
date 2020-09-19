@@ -1,0 +1,7 @@
+@function shadow($blur) {
+	@return 0 0 #{$blur}px rgba(0, 0, 0, 0.1);
+}
+
+@function trns($value) {
+	@return $value 0.2s ease-out;
+}

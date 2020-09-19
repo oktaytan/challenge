@@ -1,0 +1,10 @@
+.default_link {
+	@include small-regular;
+	color: $primary;
+	margin-bottom: 0.25rem;
+	transition: trns(color);
+
+	&:hover {
+		color: darken($primary, 20);
+	}
+}

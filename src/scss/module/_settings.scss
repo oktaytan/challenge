@@ -1,0 +1,31 @@
+.settings {
+	width: 100%;
+	height: auto;
+	@include centered-column;
+	margin: 1.5rem 0;
+
+	.setting {
+		width: 100%;
+		height: $constant-height;
+		display: grid;
+		align-items: center;
+		margin: 0.5rem 0;
+
+		&.row {
+			grid-template-columns: 1fr 236px;
+			grid-template-rows: $constant-height;
+		}
+
+		&.column {
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr $constant-height;
+			grid-gap: 0.7rem;
+			margin-bottom: 2.7rem;
+		}
+
+		&_title {
+			width: 100%;
+			display: block;
+		}
+	}
+}

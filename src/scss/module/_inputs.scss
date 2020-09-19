@@ -1,0 +1,45 @@
+.custom_input {
+	width: 100%;
+	height: $constant-height;
+
+	input {
+		width: 100%;
+		height: 100%;
+		@include border;
+		border-radius: $radius / 2;
+		padding: 15px;
+		@include body-regular;
+		color: $grey-90;
+		transition: trns(all);
+
+		&:focus {
+			border-color: transparent;
+			outline: none;
+			box-shadow: 0 0 0 3px rgba($primary, 0.2);
+		}
+	}
+
+	&.with-icon {
+		position: relative;
+
+		input {
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding: 15px 46px;
+			background: none;
+		}
+	}
+
+	&_icon {
+		position: absolute;
+		top: 50%;
+		left: 21px;
+		transform: translateY(-50%);
+		z-index: 2;
+
+		path {
+			fill: $primary;
+		}
+	}
+}
