@@ -1,5 +1,7 @@
 <template>
-	<div class="video_preview"></div>
+	<div class="video_preview">
+		<img src="../assets/preview.png" alt="preview" />
+	</div>
 </template>
 
 <script>

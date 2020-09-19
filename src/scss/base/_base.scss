@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'mixins';
 @import 'functions';
+@import 'fonts';
 
 // Reset
 *,
@@ -139,7 +140,8 @@ body {
 	background-color: $grey-10;
 	width: 100%;
 	padding: 3rem 0;
-	font-family: '-apple-system', 'BlinkMacSystemFont', sans-serif;
+	font-family: '-apple-system', 'San Francisco', 'BlinkMacSystemFont',
+		sans-serif;
 	color: $grey-90;
 
 	@include centered-row;

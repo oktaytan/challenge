@@ -17,7 +17,8 @@
 
 // Text Mixins
 @mixin body-regular {
-	font-family: '-apple-system', 'BlinkMacSystemFont', sans-serif;
+	font-family: '-apple-system', 'San Francisco', 'BlinkMacSystemFont',
+		sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
@@ -26,7 +27,8 @@
 }
 
 @mixin body-bold {
-	font-family: '-apple-system', 'BlinkMacSystemFont', sans-serif;
+	font-family: '-apple-system', 'San Francisco', 'BlinkMacSystemFont',
+		sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 15px;
@@ -34,9 +36,9 @@
 	color: $grey-90;
 }
 
-
 @mixin small-regular {
-	font-family: '-apple-system', 'BlinkMacSystemFont', sans-serif;
+	font-family: '-apple-system', 'San Francisco', 'BlinkMacSystemFont',
+		sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 13px;
@@ -44,9 +46,9 @@
 	color: $grey-80;
 }
 
-
 @mixin h3-bold {
-	font-family: '-apple-system', 'BlinkMacSystemFont', sans-serif;
+	font-family: '-apple-system', 'San Francisco', 'BlinkMacSystemFont',
+		sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
